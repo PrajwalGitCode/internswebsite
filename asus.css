@@ -1,0 +1,380 @@
+body {
+	display: table;
+	margin:0px;
+	width:100%;
+	height: 100vh;
+	font-family: 'Playfair Display', serif;
+}
+
+body div img{
+	width:70px;
+	height:auto;
+	float: left;
+	padding-inline-start: 5px;
+}
+
+
+body input[type=text] {
+  float: center;
+  font-size: 17px;
+  padding: 7px 400px;
+}
+
+.button{
+	font-size: 30px;
+	float:right;
+	padding-bottom: 30px;
+	padding-right: 10px;
+}
+
+.button button{
+	  background-color:red;
+	  font-size: 24px;
+	  border-style: none;
+}
+.button button a{
+	color:whitesmoke;
+	border: 10,30;
+	text-decoration: none;
+}
+
+
+.header {
+	display: table;
+	width: 100%;
+    padding-top:5px;
+    text-align: center;
+    background-color:black;
+	position: fixed;
+}
+
+nav ul a:hover {
+  background-color: #ddd;
+  color: black;
+}
+nav ul a.active {
+  background-color: #666;
+  color: white;
+}
+
+
+nav ul li {
+	list-style-type : none;
+	float :left;
+	padding-right: 110px;
+	line-height:1px;
+	font-size: 21px;
+	color: white; 
+}
+
+nav {
+	display: table;
+	padding-top: 10px;
+	width:100%;
+	height :40px;
+	background-color:red;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+
+.table{
+	width:100%;
+}
+
+.table h1{
+	font-size: 50px;
+	
+}                                           
+.table table{
+	width: 100%;
+	text-align: center;
+	height: 100vh;
+
+}
+.table{
+	
+	padding: 5px;
+	background-color: #dbe2ef;
+}
+
+
+
+
+
+
+.asus{
+	display: table;
+	background-color: #000000f5;
+	width: 100%;
+	height: 100vh;
+	padding-top:100px;
+	padding-bottom: 20px;
+}
+.asus .inner img{
+	width: 350px;
+	height:600px;
+
+	padding-top: 70px;
+	padding-left: 30px;
+}
+.asus .inner div{
+	float: right;
+}
+.asus .inner h1{
+	font-size: 35px;
+	color: white;
+}
+.asus .inner h3{
+	font-size: 17px;
+	color:rgb(255, 38, 0);	
+}
+.asus .inner h2{
+	font-size: 24px;
+	color:#666;	
+}
+.asus .inner h4{
+	font-size: 17px;
+	color:green;
+}
+.asus .inner h5{
+	font-size: 27px;
+	color:whitesmoke;
+}
+.asus .inner div li{
+	color:yellow;
+	font-size: 17px;
+	padding-left: 120px;
+}
+
+.button1{
+	font-size: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #000000f5;
+	padding-bottom: 20px;
+}
+.button1 button{
+	  background-color:red;
+	  border-color:transparent;
+	  font-size:30px;
+}
+.button1 button a{
+	color:whitesmoke;
+	text-decoration: none;
+}
+
+.button1 button1{
+	  background-color:red;
+	  border-color:transparent;
+	  font-size:30px;
+	  float:right;
+}
+.button1 button1 a{
+	color:whitesmoke;
+	text-decoration: none;
+}
+
+
+.footer {
+	display: table;
+	width: 100%;
+    background-color: red;
+    color: white;
+}
+
+.footer .inner h1{
+	float:left;
+	width: 100%;
+}
+
+.footer .inner div tr
+{
+	float: bottom;
+	padding-left: 50px;
+
+}
+
+.footer .inner {
+	padding: 50px;
+}
+.footer li {
+	font-size: 40px;
+}
+.footer .inner div{
+	width:17%;
+	margin-left:5px;
+	margin-right:5px;
+	float:left;
+	text-align: center;
+}
+
+.footer .inner li{
+	font-size: 20px;
+	color:  #dbe2ef;
+}
+.footer .inner div ul li{
+	list-style-type: none;
+}
+.footer .inner h1{
+	color: whitesmoke;
+	font-size: 40px;
+}
+.footer .inner h3{
+	color: grey;
+	font-size: 20px;
+}
+.footer .vertical { 
+            border-left: 6px solid black; 
+            height: 200px; 
+}
+
+
+
+@media (min-width: 320px) and (max-width: 767px){
+
+
+.asus .inner div{
+	float: left;
+	padding-top: 50px;
+	padding-inline-start: 30px;
+}
+.asus .inner h1{
+	font-size:24px;
+	color: white;
+}
+.asus .inner h3{
+	font-size: 21px;
+	color:rgb(255, 38, 0);	
+}
+.asus .inner h2{
+	font-size:21px;
+	color:#666;	
+}
+.asus .inner h4{
+	font-size: 24px;
+	color:green;
+}
+.asus .inner h5{
+	font-size: 27px;
+	color:whitesmoke;
+}
+
+.asus .inner div li{
+	color:yellow;
+	font-size: 17px;
+	padding-left: 10px;
+}
+
+.asus .inner img{
+	width: 350px;
+	height:600px;
+	float: center;
+	padding-top: 200px;
+	padding-left: 160px;
+}
+
+.asus{
+	display: table;
+	background-color: #000000f5;
+	width: 100%;
+	height: 100vh;
+	padding-top:1px;
+}
+.footer {
+	display: table;
+	width: 100%;
+    background-color: red;
+    color: white;
+}
+
+.footer .inner h1{
+	float:left;
+	width: 100%;
+}
+
+.footer .inner div tr
+{
+	float: bottom;
+	padding-left: 50px;
+
+}
+
+.footer .inner {
+	padding: 50px;
+}
+.footer li {
+	font-size: 20px;
+}
+.footer .inner div{
+	width:18%;
+	margin-left:5px;
+	margin-right:5px;
+	float:left;
+	text-align: center;
+}
+
+.footer .inner li{
+	font-size: 12px;
+	color:  #dbe2ef;
+}
+.footer .inner div ul li{
+	list-style-type: none;
+}
+.footer .inner h1{
+	color: whitesmoke;
+	font-size: 40px;
+}
+.footer .inner h3{
+	color: grey;
+	font-size: 15px;
+}
+.footer .inner p{
+	font-size: 10px;
+}
+
+.footer .vertical { 
+            border-left: 2px solid black; 
+            height: 100px; 
+}
+
+
+body input[type=text] {
+  float: center;
+  font-size: 17px;
+  padding: 7px 20px;
+}
+
+
+
+.header {
+	display: table;
+	width: 195%;
+    padding-top:5px;
+    text-align: center;
+    background-color:black;
+	position: fixed;
+}
+
+nav {
+	display: table;
+	padding-top: 10px;
+	width:100%;
+	height :40px;
+	background-color:red;
+}
+nav ul li {
+	list-style-type : none;
+	float :left;
+	padding-right: 30px;
+	line-height:1px;
+	font-size: 15px;
+	color: white; 
+}
+
+}
+
